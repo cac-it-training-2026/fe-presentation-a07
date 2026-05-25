@@ -1,5 +1,7 @@
 /* 全体のフォント設定 */
 body {
+	
+	 background: linear-gradient(135deg, #0f172a, #1e293b);
     font-family:
         "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
         Meiryo, sans-serif;
@@ -119,16 +121,35 @@ body {
 .nextpage{
 	text-align: center;
 }.nextpage a {
-  color: #3498db; 
-  text-decoration: none;
+	  display: inline-block;
+
+    padding: 12px 24px;
+
+    background:
+        linear-gradient(135deg, #60a5fa, #2563eb);
+
+    color: white !important;
+
+    border-radius: 999px;
+
+    font-weight: bold;
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+
+    box-shadow:
+        0 6px 16px rgba(37,99,235,0.3);
+        
+         text-decoration: none;
 }
+
 .nextpage a:visited {
   color: #3498db;
 }
-.nextpage:hover{
-	text-decoration: underline;
-	text-decoration-color:#3498db ;
-	
+.nextpage a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 4px;
 }
-
 	
